@@ -1,4 +1,4 @@
-const PopTable = require('./db/popularModel.js');
+const PopTable = require('../db/popularModel.js');
 // function adds recipes to the PopTable
 const addMostPopular = function (obj) {
   for (let i = 0; i < 5; i++) {

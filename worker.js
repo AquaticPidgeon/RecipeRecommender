@@ -1,6 +1,6 @@
 const axios = require('axios');
-const recAlgo = require('./recommenderAlgo.js');
-const mostPopular = require('./mostPopular.js');
+const recAlgo = require('./recommondations/recommenderAlgo.js');
+const mostPopular = require('./recommondations/mostPopular.js');
 
 const URL = 'http://localhost:3000/';
 axios.get(URL + 'api/fetchData').then((response) => {
